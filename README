@@ -1,0 +1,33 @@
+# Agentic AI for Local Governance & Laws – Diagram
+
+Generates a high-resolution workflow diagram (PNG + SVG) using Matplotlib.
+
+## Quick start
+```bash
+python -m venv .venv
+# Windows: .venv\Scripts\activate
+# macOS/Linux:
+source .venv/bin/activate
+
+pip install -r requirements.txt
+python src/diagram.py --outdir outputs
+```
+
+## Outputs:
+- outputs/agentic_ai_workflow.png
+- outputs/agentic_ai_workflow.svg
+
+## Project structure
+
+```
+.
+├─ src/
+│  └─ diagram.py
+├─ outputs/        # created on first run
+├─ requirements.txt
+├─ .gitignore
+└─ LICENSE
+```
+
+## License
+MIT – see LICENSE.
